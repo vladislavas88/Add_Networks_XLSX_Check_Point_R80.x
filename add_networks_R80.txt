@@ -1,0 +1,7 @@
+add network name gn_10.1.1.0_24 subnet "10.1.1.0" subnet-mask "255.255.255.0" --version 1.3
+add network name gn_10.2.2.0_25 subnet "10.2.2.0" subnet-mask "255.255.255.128" --version 1.3
+add network name gn_10.3.3.0_26 subnet "10.3.3.0" subnet-mask "255.255.255.192" --version 1.3
+add network name gn_10.4.4.0_27 subnet "10.4.4.0" subnet-mask "255.255.255.224" --version 1.3
+add network name gn_10.5.5.0_28 subnet "10.5.5.0" subnet-mask "255.255.255.240" --version 1.3
+add network name gn_10.6.6.0_29 subnet "10.6.6.0" subnet-mask "255.255.255.248" --version 1.3
+add network name gn_10.7.7.0_30 subnet "10.7.7.0" subnet-mask "255.255.255.252" --version 1.3
