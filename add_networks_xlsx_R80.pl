@@ -100,7 +100,7 @@ foreach my $row (@column) {
     	my $net     = $1 if (defined);
     	my $bit     = $6 if (defined);
     	my $netmask = $netmasks{$bit} if (defined);
-		say FHW "$addNetworkName" . " " . "$namePrefix" . "$net" . "_" . "$bit" . " " . "$subnet" . " " . "\"" . "$net" . "\"" . " " . "$subnetMask" . " " . "\"" . "$netmask" . "\"" . " " . "$version" if (defined);
+	say FHW "$addNetworkName" . " " . "$namePrefix" . "$net" . "_" . "$bit" . " " . "$subnet" . " " . "\"" . "$net" . "\"" . " " . "$subnetMask" . " " . "\"" . "$netmask" . "\"" . " " . "$version" if (defined);
     }
 }
 
